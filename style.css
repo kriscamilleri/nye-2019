@@ -4,6 +4,7 @@ body {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 150%;
 }
 
 button a {

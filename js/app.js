@@ -51,10 +51,15 @@ function vote(i) {
   });
 }
 
-function radio_toolbar_click(ev) {
-  let checked = document.querySelector('input[name="radioFruit"]:checked');
-  if (checked) {
-    checked.checked = false;
+function checkIfSubmit(e) {
+  var inputs = document.querySelectorAll('input[type="radio"]:checked');
+  let canProceed = inputs.length > 0;
+  if (!canProceed) {
+    alert("Please select an option from above before submitting.");
+    return false;
+  } else {
+    alert("Thank you for your vote.");
+    window.location.href = "/";
+    return true;
   }
-  ev.target.previousElementSibling.checked = true;
 }
