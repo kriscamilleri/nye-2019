@@ -4,13 +4,15 @@ body {
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 200%;
+  font-size: 150%;
 }
 
 button a {
   text-decoration: none;
   background-color: white;
   color: black;
+  font-size: 200%;
+  cursor: pointer;
 }
 
 .landing-hero {
@@ -101,7 +103,6 @@ button a {
   background-color: grey;
   padding: 10px 20px;
   font-family: sans-serif, Arial;
-  font-size: 16px;
   border: 2px solid #444;
   border-radius: 4px;
 }
