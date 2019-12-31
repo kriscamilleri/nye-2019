@@ -9,11 +9,8 @@ body {
 
 button a {
   text-decoration: none;
-  font-size: 120%;
   background-color: white;
   color: black;
-}
-button {
 }
 
 .landing-hero {
