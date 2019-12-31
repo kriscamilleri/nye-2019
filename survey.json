@@ -18,16 +18,7 @@
     ]
   },
   "2": {
-    "question": "RUMMO Lifetime Achievement Award",
-    "choices": [
-      "Raphael Vassallo - MaltaToday Investigative Journalist",
-      "Sai Mizzi-Lang - Malta-China broker for Huawei Technologies Co.",
-      "Ben Camille - Cultural Icon and Philapthropist",
-      "James Lanzon - International Beacon of Masculinity"
-    ]
-  },
-  "3": {
-    "question": "Best 5 Door Saloon of the Decade",
-    "choices": ["James Lanzon", "James Lanzon", "James Lanzon", "James Lanzon"]
+    "question": "Most Valuable Lenzin",
+     "choices": ["James Lanzon", "James Lanzon", "James Lanzon", "James Lanzon"]
   }
 }
